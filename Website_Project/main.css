@@ -4,9 +4,14 @@ body {display:flex; flex-direction:column;}
 #main {flex-grow:1;}
 
 
+
 body {
     background-color: lightblue;
-    }
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+  }
   
   h1 {
     font-size: 50;
@@ -19,12 +24,29 @@ body {
     color:white
   }
   
-  p {
+  p 
+  {
     font-family: verdana;
     font-size: 30px;
     color: white;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
-    }
+  }
+  
+a {
+  font-family: verdana;
+  font-size: 30px;
+  color: white;
+}
 
- 
+nav {
+  text-align: center;
+}
+
+nav a {
+  font-family: verdana;
+  font-size: 45px;
+  color: white;
+  display: inline-block;
+  padding: 5px 10px 5px 10px;
+}
